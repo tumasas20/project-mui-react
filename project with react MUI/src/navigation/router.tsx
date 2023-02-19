@@ -33,6 +33,7 @@ import ListPage from '../pages/list-page';
 import ChipPage from '../pages/chip-page';
 import TooltipPage from '../pages/tooltip-page';
 import TablePage from '../pages/table-page';
+import AlertPage from '../pages/alert-page';
 
 const router = createBrowserRouter([
   {
@@ -158,6 +159,10 @@ const router = createBrowserRouter([
       {
         path: routes.TablePage,
         element: <TablePage />,
+      },
+      {
+        path: routes.AlertPage,
+        element: <AlertPage />,
       },
 
       {
