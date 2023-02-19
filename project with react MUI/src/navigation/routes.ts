@@ -28,6 +28,7 @@ const routes = {
   ListPage: '/list',
   ChipPage: '/chip',
   TooltipPage: '/tooltip',
+  TablePage: '/table',
 
   DateAndTimePickerPage: '/date-and-time-picker',
 } as const;

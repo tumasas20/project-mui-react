@@ -32,6 +32,7 @@ import DateAndTimePickerPage from '../pages/date-and-time-picker-page';
 import ListPage from '../pages/list-page';
 import ChipPage from '../pages/chip-page';
 import TooltipPage from '../pages/tooltip-page';
+import TablePage from '../pages/table-page';
 
 const router = createBrowserRouter([
   {
@@ -153,6 +154,10 @@ const router = createBrowserRouter([
       {
         path: routes.TooltipPage,
         element: <TooltipPage />,
+      },
+      {
+        path: routes.TablePage,
+        element: <TablePage />,
       },
 
       {
