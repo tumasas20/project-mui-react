@@ -61,6 +61,7 @@ export const linksGroups: LinksGroup[] = [
       { to: routes.BadgePage, text: 'Badge' },
       { to: routes.ListPage, text: 'List' },
       { to: routes.ChipPage, text: 'Chip' },
+      { to: routes.TooltipPage, text: 'Tooltip' },
     ],
   },
   {
