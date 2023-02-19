@@ -25,7 +25,8 @@ const routes = {
   BottomNavigationPage: '/bottom-navigation',
   AvatarPage: '/avatar',
   BadgePage: '/badge',
-  ListPage: 'list',
+  ListPage: '/list',
+  ChipPage: '/chip',
 
   DateAndTimePickerPage: '/date-and-time-picker',
 } as const;

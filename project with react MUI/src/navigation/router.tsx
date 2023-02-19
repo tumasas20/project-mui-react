@@ -30,6 +30,7 @@ import AvatarPage from '../pages/avatar-page';
 import BadgePage from '../pages/badge-page';
 import DateAndTimePickerPage from '../pages/date-and-time-picker-page';
 import ListPage from '../pages/list-page';
+import ChipPage from '../pages/chip-page';
 
 const router = createBrowserRouter([
   {
@@ -143,6 +144,10 @@ const router = createBrowserRouter([
       {
         path: routes.ListPage,
         element: <ListPage />,
+      },
+      {
+        path: routes.ChipPage,
+        element: <ChipPage />,
       },
 
       {
