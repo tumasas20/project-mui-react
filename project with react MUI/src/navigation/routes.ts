@@ -25,6 +25,9 @@ const routes = {
   BottomNavigationPage: '/bottom-navigation',
   AvatarPage: '/avatar',
   BadgePage: '/badge',
+  ListPage: 'list',
+
+  DateAndTimePickerPage: '/date-and-time-picker',
 } as const;
 
 export type Routes = typeof routes;

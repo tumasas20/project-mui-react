@@ -28,6 +28,8 @@ import SpeedDialPage from '../pages/speed-dial-page';
 import BottomNavigationPage from '../pages/bottom-navigation-page';
 import AvatarPage from '../pages/avatar-page';
 import BadgePage from '../pages/badge-page';
+import DateAndTimePickerPage from '../pages/date-and-time-picker-page';
+import ListPage from '../pages/list-page';
 
 const router = createBrowserRouter([
   {
@@ -138,6 +140,16 @@ const router = createBrowserRouter([
         path: routes.BadgePage,
         element: <BadgePage />,
       },
+      {
+        path: routes.ListPage,
+        element: <ListPage />,
+      },
+
+      {
+        path: routes.DateAndTimePickerPage,
+        element: <DateAndTimePickerPage />,
+      },
+
     ],
   },
 ]);

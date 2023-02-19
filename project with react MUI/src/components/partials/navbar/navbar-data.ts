@@ -59,6 +59,13 @@ export const linksGroups: LinksGroup[] = [
     title: 'Lesson 4 Components',
     links: [
       { to: routes.BadgePage, text: 'Badge' },
+      { to: routes.ListPage, text: 'List' },
+    ],
+  },
+  {
+    title: 'Lesson 5 Components',
+    links: [
+      { to: routes.DateAndTimePickerPage, text: 'Date and Time Picker' },
     ],
   },
 ];
