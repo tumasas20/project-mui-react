@@ -64,6 +64,7 @@ export const linksGroups: LinksGroup[] = [
       { to: routes.TooltipPage, text: 'Tooltip' },
       { to: routes.TablePage, text: 'Table' },
       { to: routes.AlertPage, text: 'Alert' },
+      { to: routes.SnackbarPage, text: 'Snackbar' },
     ],
   },
   {

@@ -34,6 +34,7 @@ import ChipPage from '../pages/chip-page';
 import TooltipPage from '../pages/tooltip-page';
 import TablePage from '../pages/table-page';
 import AlertPage from '../pages/alert-page';
+import SnackbarPage from '../pages/snackbar-page';
 
 const router = createBrowserRouter([
   {
@@ -163,6 +164,10 @@ const router = createBrowserRouter([
       {
         path: routes.AlertPage,
         element: <AlertPage />,
+      },
+      {
+        path: routes.SnackbarPage,
+        element: <SnackbarPage />,
       },
 
       {
