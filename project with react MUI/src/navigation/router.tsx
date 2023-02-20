@@ -37,6 +37,7 @@ import AlertPage from '../pages/alert-page';
 import SnackbarPage from '../pages/snackbar-page';
 import DialogPage from '../pages/dialog-page';
 import ProgressPage from '../pages/progress-page';
+import SkeletonPage from '../pages/skeleton-page';
 
 const router = createBrowserRouter([
   {
@@ -178,6 +179,10 @@ const router = createBrowserRouter([
       {
         path: routes.ProgressPage,
         element: <ProgressPage />,
+      },
+      {
+        path: routes.SkeletonPage,
+        element: <SkeletonPage />,
       },
 
       {
