@@ -35,6 +35,7 @@ import TooltipPage from '../pages/tooltip-page';
 import TablePage from '../pages/table-page';
 import AlertPage from '../pages/alert-page';
 import SnackbarPage from '../pages/snackbar-page';
+import DialogPage from '../pages/dialog-page';
 
 const router = createBrowserRouter([
   {
@@ -168,6 +169,10 @@ const router = createBrowserRouter([
       {
         path: routes.SnackbarPage,
         element: <SnackbarPage />,
+      },
+      {
+        path: routes.DialogPage,
+        element: <DialogPage />,
       },
 
       {

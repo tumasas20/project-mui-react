@@ -31,6 +31,7 @@ const routes = {
   TablePage: '/table',
   AlertPage: '/alert',
   SnackbarPage: '/snackbar',
+  DialogPage: '/dialog',
 
   DateAndTimePickerPage: '/date-and-time-picker',
 } as const;
