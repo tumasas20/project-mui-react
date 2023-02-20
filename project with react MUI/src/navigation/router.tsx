@@ -36,6 +36,7 @@ import TablePage from '../pages/table-page';
 import AlertPage from '../pages/alert-page';
 import SnackbarPage from '../pages/snackbar-page';
 import DialogPage from '../pages/dialog-page';
+import ProgressPage from '../pages/progress-page';
 
 const router = createBrowserRouter([
   {
@@ -173,6 +174,10 @@ const router = createBrowserRouter([
       {
         path: routes.DialogPage,
         element: <DialogPage />,
+      },
+      {
+        path: routes.ProgressPage,
+        element: <ProgressPage />,
       },
 
       {

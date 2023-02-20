@@ -32,6 +32,7 @@ const routes = {
   AlertPage: '/alert',
   SnackbarPage: '/snackbar',
   DialogPage: '/dialog',
+  ProgressPage: '/progress',
 
   DateAndTimePickerPage: '/date-and-time-picker',
 } as const;
