@@ -38,6 +38,7 @@ import SnackbarPage from '../pages/snackbar-page';
 import DialogPage from '../pages/dialog-page';
 import ProgressPage from '../pages/progress-page';
 import SkeletonPage from '../pages/skeleton-page';
+import LoadingBtnPage from '../pages/loading-button-page';
 
 const router = createBrowserRouter([
   {
@@ -183,6 +184,10 @@ const router = createBrowserRouter([
       {
         path: routes.SkeletonPage,
         element: <SkeletonPage />,
+      },
+      {
+        path: routes.LoadingBtnPage,
+        element: <LoadingBtnPage />,
       },
 
       {

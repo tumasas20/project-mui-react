@@ -34,6 +34,7 @@ const routes = {
   DialogPage: '/dialog',
   ProgressPage: '/progress',
   SkeletonPage: '/skeleton',
+  LoadingBtnPage: '/loading-btn',
 
   DateAndTimePickerPage: '/date-and-time-picker',
 } as const;

@@ -68,6 +68,7 @@ export const linksGroups: LinksGroup[] = [
       { to: routes.DialogPage, text: 'Dialog' },
       { to: routes.ProgressPage, text: 'Progress' },
       { to: routes.SkeletonPage, text: 'Skeleton' },
+      { to: routes.LoadingBtnPage, text: 'Loading Button' },
     ],
   },
   {
